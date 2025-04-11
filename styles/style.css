@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../bilder/flat-lay-frame-with-confetti-purple-background.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover;
+  text-align: center; /* Centers content horizontally */
+}
+
+h1 {
+  color: black; /* Desired color */
+  font-family: Monaco, monospace; /* Use a monospaced font */
+  /* font-family: "Lucida Handwriting", cursive; */
+  font-weight: bold;
+  margin-top: 120px; /* Adds some space from the top */
+  font-size: 5rem; /* Adjusts the font size */
+}
+
+h2 {
+  color:black; /* Desired color */
+  font-family: 'Courier New', monospace;
+  margin-top: 0px; /* Adds some space from the top */
+  margin-right: 100px;
+  margin-left: 100px; /* Moves the text to the right */
+  font-size: 1.7rem; /* Adjusts the font size */
+}
+
+h3{
+  color: black; /* Desired color */
+  margin-top: 40px; /* Adds some space from the top */
+  font-size: 1.5rem; /* Adjusts the font size */
+}
+
+p {
+  color: brown; /* Desired color */
+  font-size: 1.2rem; /* Adjusts the font size */
+  margin-top: 10px; /* Adds some space from the top */
+}
+
+.container {
+  text-align: center;
+  /* background: rgba(0, 0, 0, 0.7); */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto; /* Moves the container below the title */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f0f0f0; /* Light background for input */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 50px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
