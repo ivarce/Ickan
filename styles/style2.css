@@ -12,17 +12,17 @@ h1 {
   font-family: Monaco, monospace; /* Use a monospaced font */
   /* font-family: "Lucida Handwriting", cursive; */
   font-weight: bold;
-  margin-top: 35px; /* Adds some space from the top */
-  font-size: 2rem; /* Adjusts the font size */
+  margin-top: 135px; /* Adds some space from the top */
+  font-size: 3rem; /* Adjusts the font size */
 }
 
 h2 {
   color:black; /* Desired color */
   font-family: 'Courier New', monospace;
-  margin-top: 0px; /* Adds some space from the top */
+  margin-top: 100px; /* Adds some space from the top */
   margin-right: 10px;
   margin-left: 10px; /* Moves the text to the right */
-  font-size: 1.7rem; /* Adjusts the font size */
+  font-size: 2rem; /* Adjusts the font size */
 }
 
 h3{
@@ -50,14 +50,19 @@ form {
   align-items: center;
 }
 
+
 input[type="password"] {
-  padding: 10px;
-  font-size: 1rem;
-  margin-bottom: 10px;
-  border: none;
-  background-color: #f0f0f0; /* Light background for input */
-  border-radius: 5px;
+  width: 100%; /* Gör att fältet fyller hela tillgängliga bredden inom sin container */
+  max-width: 400px; /* Sätter en maxbredd för att det inte ska bli för brett */
+  padding: 15px; /* Ökar inre marginaler för en större känsla */
+  font-size: 2rem; /* Gör texten större och mer läsbar */
+  margin-bottom: 20px; /* Lägger till mer utrymme under fältet */
+  border: 2px solid #cccccc; /* Lägg till en subtil kantlinje */
+  background-color: #ffffff; /* Gör bakgrunden vit för bättre kontrast */
+  border-radius: 10px; /* Rundar hörnen för ett modernt utseende */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Lägg till en svag skugga för att ge djup */
 }
+
 
 button {
   padding: 10px 50px;
