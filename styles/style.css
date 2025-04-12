@@ -28,7 +28,9 @@ h2 {
 h3{
   color: black; /* Desired color */
   margin-top: 80px; /* Adds some space from the top */
-  font-size: 1.5rem; /* Adjusts the font size */
+  font-size: 1.2rem; /* Adjusts the font size */
+  margin-left: 20px;
+  margin-right: 20px; /* Moves the text to the right */
 }
 
 p {

@@ -19,7 +19,7 @@ h1 {
 h2 {
   color:black; /* Desired color */
   font-family: 'Courier New', monospace;
-  margin-top: 100px; /* Adds some space from the top */
+  margin-top: 50px; /* Adds some space from the top */
   margin-right: 10px;
   margin-left: 10px; /* Moves the text to the right */
   font-size: 2rem; /* Adjusts the font size */
@@ -49,7 +49,19 @@ form {
   flex-direction: column;
   align-items: center;
 }
+.center-container {
+  margin-left: 60px;
+  margin-right: 60px; /* Lägger till utrymme på vänster och höger sida */
+  display:flex; /* Skapar en horisontell rad */
+  align-items: center; /* Centrerar innehållet vertikalt */
+  justify-content: space-between; /* Lägger bilderna längst ut på sidorna och texten i mitten */
+  padding: 40px; /* Lägger till utrymme runt hela containern */
+}
 
+.side-image {
+  width: 150px; /* Anger bredden på bilderna */
+  height: auto; /* Bevarar proportionerna på bilderna */
+}
 
 input[type="password"] {
   width: 100%; /* Gör att fältet fyller hela tillgängliga bredden inom sin container */
