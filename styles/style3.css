@@ -39,10 +39,21 @@ p {
 }
 
 .container {
-  text-align: center;
-  padding: 2px;
-  width: 300px;
-  margin: 20px auto; /* Moves the container below the title */
+  width: 400px; /* Sätter bredden på rutan */
+  height: auto; /* Gör höjden flexibel baserat på innehållet */
+  padding: 20px; /* Lägger till marginaler inuti rutan */
+  margin: 20px auto; /* Centrerar rutan horisontellt */
+}
+
+input[type="text"] {
+  width: 100%; /* Gör att fältet fyller hela container-bredden */
+  max-width: 350px; /* Sätter en maxbredd för att det inte ska bli för brett */
+  padding: 15px; /* Ökar utrymmet inuti fältet */
+  font-size: 1.2rem; /* Gör texten i fältet större */
+  margin-bottom: 20px; /* Lägger till avstånd under fältet */
+  border: 2px solid #cccccc; /* Sätter en diskret kantlinje */
+  border-radius: 8px; /* Rundar hörnen för ett modernare utseende */
+  background-color: #ffffff; /* Vit bakgrund för bättre kontrast */
 }
 
 form {
@@ -50,7 +61,6 @@ form {
   flex-direction: column;
   align-items: center;
 }
-
 
 input[type="password"] {
   width: 100%; /* Gör att fältet fyller hela tillgängliga bredden inom sin container */

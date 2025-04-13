@@ -11,7 +11,7 @@ h1 {
   font-family: Monaco, monospace; /* Use a monospaced font */
   /* font-family: "Lucida Handwriting", cursive; */
   font-weight: bold;
-  margin-top: 100px; /* Adds some space from the top */
+  margin-top: 70px; /* Adds some space from the top */
   font-size: 3.3rem; /* Adjusts the font size */
 }
 
@@ -21,7 +21,7 @@ h2 {
   margin-top: 80px; /* Adds some space from the top */
   margin-right: 10px;
   margin-left: 10px; /* Moves the text to the right */
-  font-size: 2.5rem; /* Adjusts the font size */
+  font-size: 1.5rem; /* Adjusts the font size */
 }
 
 h3{
@@ -32,16 +32,29 @@ h3{
 
 p {
   color:black; /* Desired color */
-  font-size: 1.5rem; /* Adjusts the font size */
+  font-size: 0.9rem; /* Adjusts the font size */
   margin-top: 10px; /* Adds some space from the top */
   margin-bottom: 10px;
+  text-align: left;
+  margin-left: 200px;
 }
 
 .container {
-  text-align: center;
-  padding: 2px;
-  width: 300px;
-  margin: 20px auto; /* Moves the container below the title */
+  width: 400px; /* Sätter bredden på rutan */
+  height: auto; /* Gör höjden flexibel baserat på innehållet */
+  padding: 20px; /* Lägger till marginaler inuti rutan */
+  margin: 20px auto; /* Centrerar rutan horisontellt */
+}
+
+input[type="text"] {
+  width: 100%; /* Gör att fältet fyller hela container-bredden */
+  max-width: 350px; /* Sätter en maxbredd för att det inte ska bli för brett */
+  padding: 15px; /* Ökar utrymmet inuti fältet */
+  font-size: 1.2rem; /* Gör texten i fältet större */
+  margin-bottom: 20px; /* Lägger till avstånd under fältet */
+  border: 2px solid #cccccc; /* Sätter en diskret kantlinje */
+  border-radius: 8px; /* Rundar hörnen för ett modernare utseende */
+  background-color: #ffffff; /* Vit bakgrund för bättre kontrast */
 }
 
 form {
