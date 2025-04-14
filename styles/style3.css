@@ -2,27 +2,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('../bilder/pexels-photo-2387877.jpeg') no-repeat center center fixed; /* Background image */
+  background: url('../bilder/landscape-with-pyramids-desert.jpg') no-repeat center center fixed; /* Background image */
   background-size: cover;
   text-align: center; /* Centers content horizontally */
 }
 
 h1 {
-  color: white; /* Desired color */
-  font-family: Monaco, monospace; /* Use a monospaced font */
-  /* font-family: "Lucida Handwriting", cursive; */
+  color: black; /* Desired color */
+  font-family: 'Monaco', monospace; /* Use a monospaced font */
   font-weight: bold;
   margin-top: 150px; /* Adds some space from the top */
   font-size: 3.3rem; /* Adjusts the font size */
 }
 
 h2 {
-  color:white; /* Desired color */
-  font-family: 'Courier New', monospace;
+  color:black; /* Desired color */
+  font-weight: 100;
   margin-top: 100px; /* Adds some space from the top */
-  margin-right: 10px;
-  margin-left: 10px; /* Moves the text to the right */
-  font-size: 2.5rem; /* Adjusts the font size */
+  margin-right: 60px;
+  margin-left: 60px; /* Moves the text to the right */
+  font-size: 2rem; /* Adjusts the font size */
 }
 
 h3{
@@ -33,9 +32,11 @@ h3{
 
 p {
   color:hotpink; /* Desired color */
-  font-size: 2rem; /* Adjusts the font size */
+  font-size: 1rem; /* Adjusts the font size */
   margin-top: 50px; /* Adds some space from the top */
   margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .container {
