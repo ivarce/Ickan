@@ -12,7 +12,7 @@ h1 {
   font-family: 'Monaco', monospace; /* Use a monospaced font */
   font-weight: bold;
   margin-top: 150px; /* Adds some space from the top */
-  font-size: 3.3rem; /* Adjusts the font size */
+  font-size: 5rem; /* Adjusts the font size */
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
   margin-top: 100px; /* Adds some space from the top */
   margin-right: 60px;
   margin-left: 60px; /* Moves the text to the right */
-  font-size: 2rem; /* Adjusts the font size */
+  font-size: 3rem; /* Adjusts the font size */
 }
 
 h3{
@@ -32,7 +32,7 @@ h3{
 
 p {
   color:hotpink; /* Desired color */
-  font-size: 1rem; /* Adjusts the font size */
+  font-size: 1.5rem; /* Adjusts the font size */
   margin-top: 50px; /* Adds some space from the top */
   margin-bottom: 100px;
   margin-left: 50px;

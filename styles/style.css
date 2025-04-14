@@ -12,7 +12,7 @@ h1 {
   font-family: Monaco, monospace; /* Use a monospaced font */
   /* font-family: "Lucida Handwriting", cursive; */
   font-weight: bold;
-  margin-top: 600px; /* Adds some space from the top */
+  margin-top: 500px; /* Adds some space from the top */
   font-size: 5rem; /* Adjusts the font size */
 }
 
@@ -22,13 +22,13 @@ h2 {
   margin-top: 10px; /* Adds some space from the top */
   margin-right: 100px;
   margin-left: 100px; /* Moves the text to the right */
-  font-size: 1.7rem; /* Adjusts the font size */
+  font-size: 2.2rem; /* Adjusts the font size */
 }
 
 h3{
   color: black; /* Desired color */
   margin-top: 80px; /* Adds some space from the top */
-  font-size: 1.2rem; /* Adjusts the font size */
+  font-size: 1.9rem; /* Adjusts the font size */
   margin-left: 20px;
   margin-right: 20px; /* Moves the text to the right */
 }

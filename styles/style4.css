@@ -21,18 +21,18 @@ h2 {
   margin-top: 80px; /* Adds some space from the top */
   margin-right: 10px;
   margin-left: 10px; /* Moves the text to the right */
-  font-size: 1.5rem; /* Adjusts the font size */
+  font-size: 2.2rem; /* Adjusts the font size */
 }
 
 h3{
   color: black; /* Desired color */
   margin-top: 40px; /* Adds some space from the top */
-  font-size: 1.5rem; /* Adjusts the font size */
+  font-size: 1.8rem; /* Adjusts the font size */
 }
 
 p {
   color:black; /* Desired color */
-  font-size: 0.9rem; /* Adjusts the font size */
+  font-size: 1.2rem; /* Adjusts the font size */
   margin-top: 10px; /* Adds some space from the top */
   margin-bottom: 10px;
   text-align: left;
