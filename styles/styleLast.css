@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('../bilder/little-muffin-plastic-dinosaurs.jpg') no-repeat center center fixed; /* Background image */
+  background: url('../bilder/luxury-balloon-celebration-background-illustration-pink-gold-tone.jpg') no-repeat center center fixed; /* Background image */
   background-size: cover;
   text-align: center; /* Centers content horizontally */
 }
@@ -31,7 +31,8 @@ h2 {
 h3{
   color: black; /* Desired color */
   margin-top: 40px; /* Adds some space from the top */
-  font-size: 1.5rem; /* Adjusts the font size */
+  font-size: 2rem; /* Adjusts the font size */
+  font-weight: 200;
 }
 
 p {
