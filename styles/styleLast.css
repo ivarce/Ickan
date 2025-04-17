@@ -35,8 +35,8 @@ h3{
   font-weight: 200;
 }
 
-p {
-  color: brown; /* Desired color */
+p{
+  color: black; /* Desired color */
   font-size: 1.2rem; /* Adjusts the font size */
   margin-top: 10px; /* Adds some space from the top */
   margin-left: 30px;
